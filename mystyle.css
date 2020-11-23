@@ -1,0 +1,68 @@
+/*Body styling*/
+.holder {
+  background-color: silver;
+  padding: 20px;
+  width: fit-content;
+}
+
+/*Heading styling*/
+h2 {
+  color: chocolate;
+  font-size: 40px;
+}
+
+/*Styling for all inputs with type button*/
+input[type="button"] {
+  padding: 20px;
+  font-size: 20px;
+  margin: 1px;
+  background-color: cornflowerblue;
+}
+
+/*Styling for inputs with type text*/
+input[type="text"] {
+  width: 241px;
+  height: 50px;
+  font-size: 30px;
+}
+
+/*Styling for when cursor hover on button*/
+input[type="button"]:hover {
+  background-color: aliceblue;
+  color: blue;
+}
+
+/*Specific styling for sizing of minus button*/
+.minus input {
+  background-color: springgreen;
+  padding: 20px;
+  padding-right: 25px;
+}
+
+/*Specific styling for sizing of decimal button*/
+.decimal input {
+  padding: 20px;
+  padding-right: 25px;
+}
+
+/*Specific styling for sizing of multiply button*/
+.multiply input {
+  background-color: springgreen;
+  padding: 20px;
+  padding-right: 22px;
+}
+
+/*Styling for clear button */
+.clear input {
+  background-color: rgb(220, 0, 0);
+}
+
+/*Specific styling for symbol buttons*/
+.sym input {
+  background-color: springgreen;
+}
+
+/*Specific styling for equal button*/
+input[value="="] {
+  background-color: gold;
+}
