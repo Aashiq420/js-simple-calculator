@@ -14,3 +14,9 @@ function answer() {
 function blank() {
   document.getElementById("disp").value = "";
 }
+
+function backspace() {
+  let current = document.getElementById("disp").value;
+  let n = current.slice(0, -1);
+  document.getElementById("disp").value = n;
+}
